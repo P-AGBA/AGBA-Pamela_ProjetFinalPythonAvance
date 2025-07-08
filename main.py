@@ -1,10 +1,10 @@
 
 import asyncio
 from event import Event
-from analyzer import EventAnalyzer
+from analyse import EventAnalyzer
 from logger import EventLogger
-from report import generate_report
-from visual import generate_event_graph
+from rapport import generate_report
+from visuel import generate_event_graph
 
 analyzer = EventAnalyzer()
 logger = EventLogger()

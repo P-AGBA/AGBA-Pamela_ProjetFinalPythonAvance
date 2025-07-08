@@ -1,12 +1,14 @@
 RAPPORT DE SURVEILLANCE INTELLIGENTE
-========================================
-Date de gÈnÈration : 2025-07-07T10:06:37.486817
 
-Nombre total d'ÈvÈnements      : 109
-Nombre d'ÈvÈnements CRITIQUES : 6
-Nombre d'alertes dÈtectÈes     : 3
 
-Horodatages des alertes :
-- 2015-07-29T17:47:35.023044+00:00 (ÈvÈnements : E329, E343, E313)
-- 2015-07-29T17:52:51.902036+00:00 (ÈvÈnements : E377, E337, E87)
-- 2015-07-29T17:57:45.023044+00:00 (ÈvÈnements : E315, E303, E306)
+Date de g√©n√©ration : 2025-07-07T15:03:50.261435
+
+Nombre total d'√©v√©nements      : 109
+Nombre d'√©v√©nements CRITIQUES : 6
+Nombre d'√©v√©nements ERREURS   : 18
+Nombre d'alertes d√©tect√©es     : 3
+
+D√©tails des alertes d√©tect√©es :
+- [ERROR] √† 2015-07-29T17:47:35.023044+00:00 (√©v√©nements : E329, E343, E313)
+- [CRITICAL] √† 2015-07-29T17:52:51.902036+00:00 (√©v√©nements : E377, E337, E87)
+- [ERROR] √† 2015-07-29T17:57:45.023044+00:00 (√©v√©nements : E315, E303, E306)

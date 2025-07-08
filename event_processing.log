@@ -543,3 +543,112 @@
 2025-07-07 10:05:55,535 - INFO - Event E60 processed: New session created with session ID 0x0a1b2c
 2025-07-07 10:05:57,541 - INFO - Event E10 processed: Syncing data with leader
 2025-07-07 10:05:59,544 - INFO - Event E21 processed: Follower starting handshake with leader
+2025-07-07 15:00:02,186 - INFO - Event E11 processed: Auth failure for client 192.168.1.10
+2025-07-07 15:00:04,198 - INFO - Event E75 processed: Watch set on path /app/config
+2025-07-07 15:00:06,204 - INFO - Event E39 processed: Initialized data tree
+2025-07-07 15:00:08,216 - INFO - Event E65 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:00:10,230 - INFO - Event E77 processed: Leader ping timeout
+2025-07-07 15:00:12,242 - INFO - Event E2 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:00:14,243 - INFO - Event E329 processed: Failed to write snapshot to disk
+2025-07-07 15:00:16,249 - INFO - Event E343 processed: Unexpected exception in LeaderElection: NullPointerException
+2025-07-07 15:00:18,258 - INFO - Event E313 processed: Failed to write snapshot to disk
+2025-07-07 15:00:20,266 - INFO - Event E91 processed: Syncing data with leader
+2025-07-07 15:00:22,277 - INFO - Event E46 processed: Too many outstanding requests
+2025-07-07 15:00:24,291 - INFO - Event E92 processed: Committed transaction proposal
+2025-07-07 15:00:26,303 - INFO - Event E393 processed: Service outage detected
+2025-07-07 15:00:28,306 - INFO - Event E68 processed: Initialized data tree
+2025-07-07 15:00:30,311 - INFO - Event E377 processed: No quorum of peers available
+2025-07-07 15:00:32,318 - INFO - Event E337 processed: No quorum of peers available
+2025-07-07 15:00:34,324 - INFO - Event E87 processed: No quorum of peers available
+2025-07-07 15:00:36,337 - INFO - Event E24 processed: Syncing data with leader
+2025-07-07 15:00:38,345 - INFO - Event E1 processed: Initialized data tree
+2025-07-07 15:00:40,349 - INFO - Event E86 processed: Connection reset by peer
+2025-07-07 15:00:42,359 - INFO - Event E61 processed: Session expired for client 0x2b3c4d
+2025-07-07 15:00:44,362 - INFO - Event E67 processed: Connection to 192.168.1.11 refused, retrying
+2025-07-07 15:00:46,370 - INFO - Event E315 processed: Failed to write snapshot to disk
+2025-07-07 15:00:48,376 - INFO - Event E303 processed: Connection loss to leader
+2025-07-07 15:00:50,388 - INFO - Event E306 processed: Transaction log corrupted
+2025-07-07 15:00:52,398 - INFO - Event E83 processed: Session 0x1a2b3c nearing expiration
+2025-07-07 15:00:54,411 - INFO - Event E96 processed: Client request queue depth high
+2025-07-07 15:00:56,424 - INFO - Event E30 processed: Committed transaction proposal
+2025-07-07 15:00:58,432 - INFO - Event E54 processed: Initialized data tree
+2025-07-07 15:01:00,441 - INFO - Event E84 processed: Fsync delay detected
+2025-07-07 15:01:02,453 - INFO - Event E68 processed: Unable to recover from snapshot
+2025-07-07 15:01:04,458 - INFO - Event E7 processed: Socket exception on port 2181
+2025-07-07 15:01:06,462 - INFO - Event E87 processed: Proposed zxid not increasing
+2025-07-07 15:01:08,471 - INFO - Event E84 processed: Proposed zxid not increasing
+2025-07-07 15:01:10,482 - INFO - Event E4 processed: Initialized data tree
+2025-07-07 15:01:12,488 - INFO - Event E91 processed: Too many outstanding requests
+2025-07-07 15:01:14,501 - INFO - Event E1 processed: Session expired for client 0x2b3c4d
+2025-07-07 15:01:16,508 - INFO - Event E3 processed: Leader ping timeout
+2025-07-07 15:01:18,513 - INFO - Event E69 processed: Processing client request of type exists
+2025-07-07 15:01:20,526 - INFO - Event E71 processed: Connection established to ZooKeeper server
+2025-07-07 15:01:22,536 - INFO - Event E26 processed: Auth failure for client 192.168.1.10
+2025-07-07 15:01:24,542 - INFO - Event E5 processed: Too many outstanding requests
+2025-07-07 15:01:26,554 - INFO - Event E9 processed: Committed transaction proposal
+2025-07-07 15:01:28,562 - INFO - Event E81 processed: Client request timed out
+2025-07-07 15:01:30,564 - INFO - Event E45 processed: Exceeded watch count limit
+2025-07-07 15:01:32,572 - INFO - Event E70 processed: Connection to 192.168.1.11 refused, retrying
+2025-07-07 15:01:34,582 - INFO - Event E64 processed: Watch set on path /app/config
+2025-07-07 15:01:36,587 - INFO - Event E38 processed: Watch set on path /app/config
+2025-07-07 15:01:38,593 - INFO - Event E51 processed: Syncing data with leader
+2025-07-07 15:01:40,598 - INFO - Event E37 processed: Watch set on path /app/config
+2025-07-07 15:01:42,602 - INFO - Event E41 processed: Exceeded watch count limit
+2025-07-07 15:01:44,607 - INFO - Event E74 processed: Socket exception on port 2181
+2025-07-07 15:01:46,616 - INFO - Event E99 processed: Processing client request of type exists
+2025-07-07 15:01:48,631 - INFO - Event E83 processed: Proposed zxid not increasing
+2025-07-07 15:01:50,637 - INFO - Event E40 processed: Leader ping timeout
+2025-07-07 15:01:52,646 - INFO - Event E34 processed: Slow response from leader
+2025-07-07 15:01:54,653 - INFO - Event E2 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:01:56,664 - INFO - Event E41 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:01:58,677 - INFO - Event E52 processed: Leader accepted connection from follower
+2025-07-07 15:02:00,686 - INFO - Event E35 processed: Fsync delay detected
+2025-07-07 15:02:02,696 - INFO - Event E58 processed: Proposed zxid not increasing
+2025-07-07 15:02:04,708 - INFO - Event E13 processed: Session 0x1a2b3c nearing expiration
+2025-07-07 15:02:06,721 - INFO - Event E11 processed: Auth failure for client 192.168.1.10
+2025-07-07 15:02:08,725 - INFO - Event E61 processed: Leader ping timeout
+2025-07-07 15:02:10,735 - INFO - Event E83 processed: Client request queue depth high
+2025-07-07 15:02:12,747 - INFO - Event E4 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:02:14,752 - INFO - Event E23 processed: Follower starting handshake with leader
+2025-07-07 15:02:16,761 - INFO - Event E41 processed: Ephemeral node created at path /app/node1
+2025-07-07 15:02:18,764 - INFO - Event E37 processed: Initialized data tree
+2025-07-07 15:02:20,777 - INFO - Event E45 processed: Connection established to ZooKeeper server
+2025-07-07 15:02:22,781 - INFO - Event E81 processed: Syncing data with leader
+2025-07-07 15:02:24,787 - INFO - Event E21 processed: Ephemeral node created at path /app/node1
+2025-07-07 15:02:26,798 - INFO - Event E36 processed: Session 0x1a2b3c nearing expiration
+2025-07-07 15:02:28,808 - INFO - Event E94 processed: Connection established to ZooKeeper server
+2025-07-07 15:02:30,821 - INFO - Event E68 processed: Connection established to ZooKeeper server
+2025-07-07 15:02:32,828 - INFO - Event E68 processed: Connection reset by peer
+2025-07-07 15:02:34,837 - INFO - Event E17 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:02:36,846 - INFO - Event E17 processed: Connection to 192.168.1.11 refused, retrying
+2025-07-07 15:02:38,856 - INFO - Event E63 processed: Follower starting handshake with leader
+2025-07-07 15:02:40,857 - INFO - Event E73 processed: Slow response from leader
+2025-07-07 15:02:42,868 - INFO - Event E60 processed: Client request queue depth high
+2025-07-07 15:02:44,884 - INFO - Event E66 processed: Session 0x1a2b3c nearing expiration
+2025-07-07 15:02:46,893 - INFO - Event E34 processed: Syncing data with leader
+2025-07-07 15:02:48,900 - INFO - Event E10 processed: Too many outstanding requests
+2025-07-07 15:02:50,912 - INFO - Event E71 processed: Ephemeral node created at path /app/node1
+2025-07-07 15:02:52,922 - INFO - Event E43 processed: ZooKeeper service unavailable
+2025-07-07 15:02:54,935 - INFO - Event E98 processed: Slow response from leader
+2025-07-07 15:02:56,938 - INFO - Event E18 processed: Auth failure for client 192.168.1.10
+2025-07-07 15:02:58,949 - INFO - Event E10 processed: Too many outstanding requests
+2025-07-07 15:03:00,954 - INFO - Event E71 processed: Leader accepted connection from follower
+2025-07-07 15:03:02,959 - INFO - Event E46 processed: Connection reset by peer
+2025-07-07 15:03:04,962 - INFO - Event E49 processed: Processing client request of type exists
+2025-07-07 15:03:06,973 - INFO - Event E65 processed: Fsync delay detected
+2025-07-07 15:03:08,996 - INFO - Event E50 processed: Initialized data tree
+2025-07-07 15:03:11,006 - INFO - Event E23 processed: Session expired for client 0x2b3c4d
+2025-07-07 15:03:13,014 - INFO - Event E20 processed: No quorum of peers available
+2025-07-07 15:03:15,026 - INFO - Event E72 processed: Proposed zxid not increasing
+2025-07-07 15:03:17,036 - INFO - Event E10 processed: Slow response from leader
+2025-07-07 15:03:19,041 - INFO - Event E94 processed: Too many outstanding requests
+2025-07-07 15:03:21,048 - INFO - Event E71 processed: Connection to 192.168.1.11 refused, retrying
+2025-07-07 15:03:23,063 - INFO - Event E61 processed: Follower starting handshake with leader
+2025-07-07 15:03:25,070 - INFO - Event E71 processed: Session 0x1a2b3c nearing expiration
+2025-07-07 15:03:27,082 - INFO - Event E72 processed: Socket exception on port 2181
+2025-07-07 15:03:29,084 - INFO - Event E18 processed: Processing client request of type exists
+2025-07-07 15:03:31,092 - INFO - Event E85 processed: Unexpected exception in LeaderElection: NullPointerException
+2025-07-07 15:03:33,105 - INFO - Event E63 processed: Committed transaction proposal
+2025-07-07 15:03:35,114 - INFO - Event E60 processed: New session created with session ID 0x0a1b2c
+2025-07-07 15:03:37,122 - INFO - Event E10 processed: Syncing data with leader
+2025-07-07 15:03:39,131 - INFO - Event E21 processed: Follower starting handshake with leader
