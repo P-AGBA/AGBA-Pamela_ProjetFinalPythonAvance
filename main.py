@@ -1,4 +1,3 @@
-
 import asyncio
 from event import Event
 from analyse import EventAnalyzer
@@ -18,7 +17,7 @@ async def process_log(file_path):
             analyzer.add_event(event)
             logger.log_event(event)
             print(f"[+] Event {event.event_id} traité ({event.level.upper()})")
-            # Afficher une alerte si nouvellement détectée
+            # nouvel alerte détectée
             if len(analyzer.alerts) > 0 and analyzer.alerts[-1]['alert_time'] == event.timestamp.isoformat():
                 print(f"[!] Alerte détectée à {event.timestamp.isoformat()} !")
 

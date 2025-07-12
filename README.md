@@ -1,10 +1,7 @@
+# Analyser des logs JSON simulés pour détecter des anomalies critiques, générer des rapports, afficher des alertes, et produire des visualisations statistiques
 
-# Projet Python – Système de surveillance intelligente
+Structure
 
-## 🎯 Objectif
-Analyser des logs JSON simulés pour détecter des anomalies critiques, générer des rapports, afficher des alertes, et produire des visualisations statistiques.
-
-## 📂 Structure
 - `main.py` : menu interactif + traitement asynchrone
 - `event.py` : classe `Event`
 - `analyzer.py` : classe `EventAnalyzer`
@@ -15,14 +12,16 @@ Analyser des logs JSON simulés pour détecter des anomalies critiques, génére
 - `rapport.txt` : rapport texte
 - `graphique.png` : histogramme
 
-## 🚀 Lancement
-```bash
-python main.py
-```
+## Fonctionnalités
 
-## 🧪 Fonctionnalités
 - Lecture ligne par ligne avec délai simulé
 - Détection de séquences critiques
 - Sauvegarde des alertes en JSON
-- Rapport automatique en `.txt`
+- Rapport automatique en `.pdf`
 - Visualisation statistique avec `matplotlib`
+
+## Exécution du projet
+
+-pip install -r requirements.txt
+cd chemin/vers/Agba-Pamela_ProjetFinalPythonAvance
+python main.py

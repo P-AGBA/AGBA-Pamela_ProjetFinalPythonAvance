@@ -1,16 +1,40 @@
+from fpdf import FPDF
 from datetime import datetime
 
-def generate_report(analyzer, filename="rapport.txt"):
+def generate_report(analyzer, filename="rapport.pdf"):
     stats = analyzer.get_statistics()
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("RAPPORT DE SURVEILLANCE INTELLIGENTE\n")
-            
-        f.write(f"Date de génération : {datetime.now().isoformat()}\n\n")
-        f.write(f"Nombre total d'événements      : {stats['total']}\n")
-        f.write(f"Nombre d'événements CRITIQUES : {stats['critical']}\n")
-        f.write(f"Nombre d'événements ERREURS   : {stats['error']}\n")
-        f.write(f"Nombre d'alertes détectées     : {stats['alerts']}\n\n")
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 16)
 
-        f.write("Détails des alertes détectées :\n")
+    # Titre
+    pdf.cell(0, 10, "RAPPORT DE SURVEILLANCE" \
+    "", ln=True, align="C")
+    pdf.ln(10)
+
+    # Date
+    pdf.set_font("Arial", "", 12)
+    pdf.cell(0, 10, f"Date de génération : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True)
+    pdf.ln(10)
+
+    # Statistiques globales
+    pdf.set_font("Arial", "B", 14)
+    pdf.cell(0, 10, "Statistiques générales :", ln=True)
+    pdf.set_font("Arial", "", 12)
+    pdf.cell(0, 8, f"- Total d'événements     : {stats['total']}", ln=True)
+    pdf.cell(0, 8, f"- Événements CRITIQUES   : {stats['critical']}", ln=True)
+    pdf.cell(0, 8, f"- Événements ERREURS     : {stats['error']}", ln=True)
+    pdf.cell(0, 8, f"- Nombre d'alertes       : {stats['alerts']}", ln=True)
+    pdf.ln(10)
+
+    # Détails des alertes
+    pdf.set_font("Arial", "B", 14)
+    pdf.cell(0, 10, "Alertes détectées :", ln=True)
+    pdf.set_font("Arial", "", 12)
+    if analyzer.alerts:
         for alert in analyzer.alerts:
-            f.write(f"- [{alert['level']}] à {alert['alert_time']} (événements : {', '.join(alert['events'])})\n")
+            pdf.cell(0, 8, f"[{alert['level']}] à {alert['alert_time']} (événements : {', '.join(alert['events'])})", ln=True)
+    else:
+        pdf.cell(0, 8, "Aucune alerte détectée.", ln=True)
+
+    pdf.output(filename)
