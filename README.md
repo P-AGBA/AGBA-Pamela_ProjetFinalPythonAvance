@@ -4,12 +4,11 @@ Structure
 
 - `main.py` : menu interactif + traitement asynchrone
 - `event.py` : classe `Event`
-- `analyzer.py` : classe `EventAnalyzer`
 - `logger.py` : classe `EventLogger`
-- `report.py` : génération du rapport
-- `visual.py` : génération du graphique
+- `rapport.py` : génération du rapport
+- `visuel.py` : génération du graphique
 - `alerts.json` : alertes sauvegardées
-- `rapport.txt` : rapport texte
+- `rapport.pdf` : rapport
 - `graphique.png` : histogramme
 
 ## Fonctionnalités
@@ -22,6 +21,10 @@ Structure
 
 ## Exécution du projet
 
--pip install -r requirements.txt
+pip install -r requirements.txt
 cd chemin/vers/Agba-Pamela_ProjetFinalPythonAvance
 python main.py
+
+>Lien vers la [vidéo de présentation](https://www.youtube.com/watch?v=3b1c2k0g4e8).
+
+>Lien vers le dépôt [github](https://github.com/P-AGBA/AGBA-Pamela_ProjetFinalPythonAvance).
